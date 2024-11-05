@@ -1,0 +1,14 @@
+{
+    "modelfile": "wikiart.pth",
+    "modelfile2": "wikiart2.pth",
+    "modelfile3": "wikiart3.pth",
+    "trainingdir": "wikiart/train",
+    "testingdir": "wikiart/test",
+    "device": "cuda:0",
+    "epochs": 5,
+    "batch_size": 32,
+    "class_list_file": "wikiart/classes.json",
+    "balance_classes": true,
+    "style_embedding_dim": 27
+
+}
